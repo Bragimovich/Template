@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('http://127.0.0.1:3000/products')
+    fetch('https://assss-865u.onrender.com/products')
     .then(response => response.json())
     .then(data => {
         const productsTable = document.getElementById('productsTable').getElementsByTagName('tbody')[0];
