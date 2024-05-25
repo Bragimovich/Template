@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('https://assss-865u.onrender.com/products')
+    fetch('https://atlant.onrender.com/products')
     .then(response => response.json())
     .then(data => {
         const productsTable = document.getElementById('productsTable').getElementsByTagName('tbody')[0];
